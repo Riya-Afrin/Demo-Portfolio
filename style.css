@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section{
+  height: 100vh;
+  margin-top: 60px;
+ }
+nav{
+  margin-top: 40px;
+}
+.top ul{
+  list-style-type:none;
+  float: right;
+}
+.top ul li{
+  display: inline-block;
+  position: relative;
+}
+.top ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 5px 20px;
+  margin-left: 15px;
+}
+
+/* .top ul li ::after{
+  content: "";
+  height: 3px;
+  width: 0;
+  background-color: #FF1A73;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.top ul li:hover:after{
+  width: 100%;
+} */
+/* .top{
+  max-width: 1700px;
+  margin: auto;
+} */
+
+.logo img{
+  float: left;
+  width: 150px;
+  height: 50px;
+}
+.banner{
+  background-image: url(./image/header-bg.png);
+  background-repeat: no-repeat;
+
+}
+h1 {
+  color: #FF1A73;
+  font-size: 50px;
+  font-weight: 700;
+}
+.greeting{
+  font-size: 30px;
+}
+.intro{
+    width: 35%;
+    float: left;
+    margin: 5%;
+}
+.intro img{
+    width: 75% ;
+}
+.intro-content{
+margin-top: 35vh;
+}
+.button{
+  text-decoration: none;
+  border: 1px solid #FF1A73;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, #FF1A73,rgb(255, 159, 175) );
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+}
+.button:hover{
+  border: 1px solid #FF1A73;
+  background: pink;
+color: #FF1A73;
+transition: 0.5s;
+}
+ 
+.title{
+  font-size: 50px;
+}
+.detail{
+  margin-bottom: 50px;
+}
+.work h2{
+  font-size: 50px;
+  text-align: center;
+}
+.bio {
+  background-image: url(/image/biography-bg.png);
+  background-repeat: no-repeat;
+}
+.work-img{
+  margin-top: 25vh;
+  position: relative;
+  left: 10%;
+}
+.work-img img{
+ width: 25%;
+ float: left;
+ margin-left: 25px;
+}
+.work{
+  background-image: url(./image/latest-work-bg.png);
+  background-repeat: no-repeat;
+}
+.client h2{
+  font-size: 50px;
+  text-align: center;
+}
+.client{
+  background-image: url(./image/footer-bg.png);
+  background-repeat: no-repeat;
+}
+.designation{
+  text-align: center;
+  margin: 50px;
+}
+.designation h3{
+font-weight: 700;
+font-size: 30px;
+}
+.designation p{
+  font-weight: 600;
+  color: rgb(107, 104, 104);
+}
+#content{
+  position: relative;
+  left: 30%;
+  font-size: 17px;
+width: 700px;
+
+}
+.email{
+  border: 1px solid #FF1A73;
+  background-image: linear-gradient(180deg, #FF1A73,rgb(255, 159, 175) );
+  border-radius: 5px;
+  color: white;
+  width: 550px;
+  height: 150px;
+  text-align: center;
+  position: relative;
+  left: 35%;
+margin-top: 55px;
+}
+.email p{
+  font-size: 20px;
+}
+.email h4{
+  font-size: 25px;
+}
+#copy-right{
+  color: gray;
+  text-align: center;
+  margin-bottom: 20px;
+}
